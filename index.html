@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container" class="container">
+        <nav>
+            <img class="logo" src="./images/eagle.svg" alt="no image">
+            <ul>
+                <li> <a href="#container">HOME</a> </li>
+                <li> <a href="#about">ABOUT</a> </li>
+                <li> <a href="#skill">SKILLS</a></li>
+                <li> <a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="home">
+            <div class="title">
+                <h1>I'm <span class="sep-name">Jomson</span> Johny</h1>
+                <p>This is my Official protfolio website to decribe all
+                    <br>
+                    details and word experience in Web Developement
+                </p>
+                <!-- give same path to download attribute to get the download option -->
+                <a href="./my_resume.pdf" download="./my_resume.pdf">DOWNLOAD CV</a>
+            </div> 
+            <div class="images">
+                <img class="shape" src="https://i.postimg.cc/nzVhwfqt/shape.png" alt="shape">
+                <img class="girl" src="https://i.postimg.cc/jjPfrTWw/girl.png" alt="girl">
+            </div>   
+        </section>
+        <!-- section about -->
+        <section id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+                <span>Introduction</span>
+            </div>
+            <div class="about-content">
+            <!-- about img -->
+            <div class="about-img">
+                <img src="./images/two.jpg" alt="about img">
+            </div>    
+            <!-- about img -->
+            <div class="about-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quis, iure, temporibus sint amet ad sed nam deleniti, quisquam laborum possimus voluptate modi fugit totam aliquam! Repudiandae odio molestiae velit.</p>
+                <div class="information">
+                    <!-- box 1 -->
+                    <div class="info-box">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Max Miller</span>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+917994680012</span>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>max.miller@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="heading">
+                <h2>Skills</h2>
+                <span>My Skills</span>
+            </div>   
+            <!-- skill container  -->
+            <div class="skill-container">
+                <div class="bars">
+                    <!-- box 1 -->
+                    <div class="bar-box">
+                        <h3>HTML</h3>
+                        <span>93%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar html-bar"></div>
+                    </div>
+                     <!-- box 2 -->
+                     <div class="bar-box">
+                        <h3>CSS</h3>
+                        <span>95%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar css-bar"></div>
+                    </div>
+                     <!-- box 1 -->
+                     <div class="bar-box">
+                        <h3>JavaScript</h3>
+                        <span>90%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar js-bar"></div>
+                    </div>
+                     <!-- box 1 -->
+                     <div class="bar-box">
+                        <h3>React</h3>
+                        <span>97%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar react-bar"></div>
+                    </div>
+                </div>
+                <!-- skill img -->
+                <div class="skill-img">
+                    <img src="./images/one.jpg" alt="skill image">
+                </div>
+            </div>
+        </section>
+
+        <!-- section Contact -->
+        <section id="contact">
+            <div class="heading">
+                <h2>Contacts</h2>
+                <span>My Contacts</span>
+            </div>  
+            <!-- icon div -->
+            <div class="icon-div">
+                <div class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p style="text-align: center;">&copy; My portfolio website 2023, All rights Reseved &reg; Jomson Johny
+            </p>
+           <div class="up-arrow"> 
+            <a href="#container"><i class="fa-sharp fa-solid fa-arrow-up fa-2x"></i></a>
+           </div>
+        </footer>
+    </div>
+</body>
+</html>
